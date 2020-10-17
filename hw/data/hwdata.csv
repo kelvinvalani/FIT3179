@@ -20,7 +20,7 @@ Burkina Faso,0.183287285
 Bangladesh,0.533298791
 Bulgaria,5.851501062
 Bahrain,22.22898097
-"Bahamas, The",4.725277895
+Bahamas,4.725277895
 Bosnia and Herzegovina,6.451938373
 Belarus,6.133707568
 Belize,1.542847448
@@ -40,8 +40,8 @@ Chile,4.713171921
 China,7.175809897
 Cote d'Ivoire,0.406063977
 Cameroon,0.346522621
-"Congo, Dem. Rep.",0.025644617
-"Congo, Rep.",0.65889694
+Congo,0.025644617
+Congo Rep.,0.65889694
 Colombia,2.030532105
 Comoros,0.253503052
 Cabo Verde,1.021783088
@@ -64,7 +64,7 @@ East Asia & Pacific,6.071788628
 Europe & Central Asia (excluding high income),7.583597179
 Europe & Central Asia,6.882181867
 Ecuador,2.495570554
-"Egypt, Arab Rep.",2.525862866
+Egypt,2.525862866
 Euro area,6.54514044
 Eritrea,
 Spain,5.249157873
@@ -76,14 +76,14 @@ Finland,8.34721998
 Fiji,2.345470364
 France,
 Faroe Islands,13.09289436
-"Micronesia, Fed. Sts.",1.297581999
+Micronesia,1.297581999
 Gabon,2.649976866
 United Kingdom,5.776795985
 Georgia,2.717167113
 Ghana,0.585289432
 Gibraltar,18.8040134
 Guinea,0.255224608
-"Gambia, The",0.247408381
+Gambia,0.247408381
 Guinea-Bissau,0.164583657
 Equatorial Guinea,4.653235449
 Greece,5.793848369
@@ -93,7 +93,7 @@ Guatemala,1.059947788
 Guam,
 Guyana,3.090037673
 High income,10.39292983
-"Hong Kong SAR, China",5.948891039
+Hong Kong,5.948891039
 Honduras,1.058473626
 Heavily indebted poor countries (HIPC),0.276852353
 Croatia,4.189377314
@@ -109,7 +109,7 @@ Isle of Man,
 India,1.817783386
 Not classified,
 Ireland,7.930340975
-"Iran, Islamic Rep.",8.316701233
+Iran, Islamic Rep.,8.316701233
 Iraq,5.191404781
 Iceland,6.154683862
 Israel,7.625351861
@@ -123,7 +123,7 @@ Kyrgyz Republic,1.609873016
 Cambodia,0.629141866
 Kiribati,0.58659486
 St. Kitts and Nevis,4.617046005
-"Korea, Rep.",12.11106978
+Korea,12.11106978
 Kuwait,24.95251303
 Latin America & Caribbean (excluding high income),2.778061233
 Lao PDR,2.594704584
@@ -143,7 +143,7 @@ Late-demographic dividend,6.491777139
 Lithuania,4.519456418
 Luxembourg,15.44261306
 Latvia,3.574298418
-"Macao SAR, China",3.37478216
+Macao SAR, China,3.37478216
 St. Martin (French part),
 Morocco,1.744435849
 Monaco,
@@ -158,7 +158,7 @@ North Macedonia,3.388998171
 Mali,0.176967052
 Malta,2.947412574
 Myanmar,0.476580079
-Middle East & North Africa (excluding high income),3.984350242
+Central African Republic,3.984350242
 Montenegro,3.240945327
 Mongolia,8.300172198
 Northern Mariana Islands,
@@ -190,7 +190,7 @@ Papua New Guinea,0.911013497
 Poland,7.875581533
 Pre-demographic dividend,0.580670839
 Puerto Rico,
-"Korea, Dem. People’s Rep.",1.117585629
+Korea,1.117585629
 Portugal,4.720545309
 Paraguay,1.092871037
 West Bank and Gaza,0.740606555
@@ -251,7 +251,7 @@ Uruguay,1.975862788
 United States,15.50220398
 Uzbekistan,2.882785961
 St. Vincent and the Grenadines,2.010067697
-"Venezuela, RB",5.500712738
+Venezuela,5.500712738
 British Virgin Islands,7.245307443
 Virgin Islands (U.S.),
 Vietnam,2.057565917
@@ -259,7 +259,7 @@ Vanuatu,0.527000323
 World,0.004848811
 Samoa,1.262955252
 Kosovo,5.031519664
-"Yemen, Rep.",0.390479572
+Yemen,0.390479572
 South Africa,8.480658464
 Zambia,0.314182895
 Zimbabwe,0.782776886
