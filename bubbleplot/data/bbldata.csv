@@ -1,4 +1,4 @@
-Entity,Code,Year,"Total population (Gapminder, HYDE & UN)",Continent,"Real GDP per capita in 2011US$, 2011 benchmark (Maddison Project Database (2018))",Per capita CO2 emissions
+Entity,Code,Year,population,Continent,"Real GDP per capita in 2011US$, 2011 benchmark (Maddison Project Database (2018))",co2
 Afghanistan,AFG,2016,35383000,,1929,0.244562379
 Albania,ALB,2016,2886000,,10342,1.570467082
 Algeria,DZA,2016,40551000,,14331,3.639333993
