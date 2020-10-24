@@ -6,6 +6,10 @@
  "data": {
  "url": "https://kelvinvalani.github.io/FIT3179/bubbleplot/data/data.csv"
  },
+ "transform": [
+ {"filter": "datum.Active > 0"},
+{"filter": "datum.Deaths > 0"}
+ ]
  "mark": "circle",
  "encoding": {
 "x": {
