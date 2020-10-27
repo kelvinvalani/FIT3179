@@ -1,1 +1,84 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+ "width": 500,
+ "height": 400,
+ "title": "CO2 emmisions in tonnes per GDP per capita",
+ "data": {
+ "url": "https://kelvinvalani.github.io/FIT3179/bubbleplot/data/bbldata.csv"
+ },
+ "mark": "circle",
+"transform": [
+{"filter": "datum.population > Population_Above"},
+{"filter": "datum.co2 > co2_Above"}
+],
+ "params": [
+ {
+ "name": "Population_Above",
+ "value": 0,
+ "bind": {
+ "input": "range",
+ "min": 0,
+ "max": 100000000,
+ "step": 1000000,
+ "name": "Minimum Population: "
+ }
+ },
+ 
+ {
+ "name": "co2_Above",
+ "value": 0,
+ "bind": {
+ "input": "range",
+ "min": 0,
+ "max": 50,
+ "step": 1,
+ "name": "Minimum CO2: "
+ }
+ }
+ ]
+ ,
+ "encoding": {
+     "tooltip": [
+ {"field": "Entity", "type": "nominal"},
+ {"field": "population", "type": "quantitative", "format": ","},
+ {"field": "co2", "type": "quantitative", "format": ","},
+ {"field": "GDP per capita", "type": "quantitative", "format": ","}
+ ]
+,
+ "x": {
+ "field": "GDP per capita",
+ "type": "quantitative",
+ "title": "GDP per capita",
+ "axis": {"tickCount": 7},
+ "scale": {"type": "log", "domain": [500, 1000000]}
+ },
+ "y": {
+ "field":"co2" ,
+  "title": "CO2 emmisions in tonnes",
+ "type": "quantitative",
+  "scale": {"domain": [0, 50]}
+ },
+ "color": {
+ "field": "co2",
+ "type": "quantitative",
+ "scale": {
+ "domain": [1, 10, 20, 30,40],
+"range": [
+"#fc9272","#de2d26"
+ ]
 
+ }
+ },
+"size": {
+ "field": "population",
+ "type": "quantitative",
+ "scale": {
+ "type": "threshold",
+ "domain": [1000, 100000, 500000, 100000000, 1000000000],
+ "range":[10,20,40,80,160,500]
+ },
+ "legend": {"format": ".1s"}
+ }
+
+ }
+}
