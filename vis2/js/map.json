@@ -1,1 +1,35 @@
-
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "CO2 emissions 2016",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://kelvinvalani.github.io/FIT3179/hw/js/ne_110m.json",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "https://kelvinvalani.github.io/FIT3179/hw/data/hwdata.csv"
+        },
+        "key": "Country Name",
+        "fields": ["Emission"]
+      }
+    }
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Emission",
+      "type": "quantitative",
+      "scale": {"type": "log"}
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country Name"},
+      {"field": "Emission", "type": "quantitative"}
+    ]
+  }
+}
