@@ -30,7 +30,7 @@
         },
         "tooltip": [
           {"field": "Year", "type": "quantitative"},
-          {"field": "Global", "type": "quantitative"}
+          {"field": "Global", "type": "quantitative" , "title":"Global temperature"}
         ]
       },
       "selection": {
