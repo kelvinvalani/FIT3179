@@ -4,7 +4,7 @@
   "width": 800,
   "height": 600,
   "data": {
-    "url": "https://kelvinvalani.github.io/FIT3179/hw/js/ne_110m.json",
+    "url": "https://kelvinvalani.github.io/FIT3179/vis2/js/ne_110m.json",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -12,7 +12,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://kelvinvalani.github.io/FIT3179/hw/data/hwdata.csv"
+          "url": "https://kelvinvalani.github.io/FIT3179/vis2/data/map.csv"
         },
         "key": "Country Name",
         "fields": ["Emission"]
