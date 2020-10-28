@@ -4,7 +4,7 @@
  "height": 400,
  "title": "CO2 emmisions in tonnes per GDP per capita",
  "data": {
- "url": "https://kelvinvalani.github.io/FIT3179/bubbleplot/data/bbldata.csv"
+ "url": "https://kelvinvalani.github.io/FIT3179/vis2/data/bbldata.csv"
  },
  "mark": "circle",
 "transform": [
@@ -59,15 +59,10 @@
   "scale": {"domain": [0, 50]}
  },
  "color": {
- "field": "co2",
- "type": "quantitative",
- "scale": {
- "domain": [1, 10, 20, 30,40],
-"range": [
-"#fc9272","#de2d26"
- ]
+ "field": "Continent",
+ "type": "nominal"
 
- }
+ 
  },
 "size": {
  "field": "population",
