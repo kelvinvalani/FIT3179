@@ -1,4 +1,4 @@
-Entity,Year,Median temperature anomaly from 1961-1990 average,Upper bound (95% CI),Lower bound (95% CI)
+Entity,Year,median,Upper bound (95% CI),Lower bound (95% CI)
 Global,1850,-0.373,-0.339,-0.425
 Global,1851,-0.218,-0.184,-0.274
 Global,1852,-0.228,-0.196,-0.28
