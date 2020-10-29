@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "data": {"url": "https://kelvinvalani.github.io/FIT3179/vis2/data/temp.csv"},
     "title": "Global median temperature in Celcius over time ",
-  "width": 400,
-  "height": 300,
+  "width": 800,
+  "height": 400,
   "encoding": {"x": {"field": "Year", "type": "quantitative",
     "scale":{"domain" : [1900,2018]}}},
   "layer": [
