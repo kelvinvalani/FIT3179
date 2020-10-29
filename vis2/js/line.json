@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "data": {"url": "https://kelvinvalani.github.io/FIT3179/vis2/data/linedata.csv"},
     "title": "CO2 emissions over time by Continents",
-  "width": 400,
-  "height": 300,
+  "width": 800,
+  "height": 500,
   "encoding": {"x": {"field": "Year", "type": "quantitative",
     "scale":{"domain" : [1900,2018]}}},
   "layer": [
@@ -22,7 +22,7 @@
     },
     {
       "transform": [{"pivot": "Entity", "value": "Annual CO2 emissions", "groupby": ["Year"]}],
-      "mark": {"type":"rule","clip":"true"},
+      "mark": {"type":"rule","clip":true},
       "encoding": {
         "opacity": {
           "condition": {"value": 0.3, "selection": "hover"},
