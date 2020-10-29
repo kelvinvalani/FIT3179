@@ -2,18 +2,69 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+<style>
+
+div {
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+h1 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px; text-align: center; text-transform: uppercase; }
+
+
+h2 { color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 48px; font-weight: 700; line-height: 48px; margin: 0 0 24px; padding: 0 30px; text-align: center; text-transform: uppercase; }
+
+
+p { color: #111; font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 28px; margin: 0 0 48px; }
+
+
+a { color: #990000; text-decoration: none; }
+
+
+a:hover { text-decoration: underline }
+
+
+.date { color: #111; display: block; font-family: 'Open Sans', sans-serif; font-size: 16px; position: relative; text-align: center; z-index: 1; }
+
+
+.date:before { border-top: 1px solid #111; content: ""; position: absolute; top: 12px; left: 0; width: 100%; z-index: -1; }
+
+
+.author { color: #111; display: block; font-family: 'Open Sans', sans-serif; font-size: 16px; padding-bottom: 38px; position: relative; text-align: center; z-index: 1; }
+
+
+.author:before { border-top: 1px solid #111; content: ""; position: absolute; top: 12px; left: 0; width: 100%; z-index: -1; }
+
+
+.date span,
+
+.author span { background: #fdfdfd; padding: 0 10px; text-transform: uppercase; }
+
+
+.line { border-top: 1px solid #111; display: block; margin-top: 60px; padding-top: 50px; position: relative; }
+
+
+.read-more { -moz-border-radius: 50%; -moz-transition: all 0.2s ease-in-out; -webkit-border-radius: 50%; -webkit-transition: all 0.2s ease-in-out; background: #111; border-radius: 50%; border: 10px solid #fdfdfd; color: #fff; display: block; font-family: 'Open Sans', sans-serif; font-size: 14px; height: 80px; line-height: 80px; margin: -40px 0 0 -40px; position: absolute; bottom: 0px; left: 50%; text-align: center; text-transform: uppercase; width: 80px; }
+
+
+.read-more:hover { background: #990000; text-decoration: none; }</style>
+
+
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
+
 <body>
 
-
-<center><b><p style="font-size:50px">CO2 emissions</p></b>
+<center>
+<h1><b><p style="font-size:50px">CO2 emissions</p></b></h1>
 <br>
-<b><p style="font-size:30px">Why Global Temperatures Matter</p></b>
+<h2><b><p style="font-size:30px">Why Global Temperatures Matter</p></b></h2>
 
 
 <p style="font-size:18px">Carbon dioxide is an important greenhouse gas that is emitted through various human activities such as burning fossil fuels and deforestation along with natural processes like volcanic eruptions.
@@ -28,12 +79,13 @@ and have put into action many plans to lower CO2 emission levels, let us take a 
 <br><br><br><br><br><br>
 
 
-<b><p style="font-size:30px">CO2 Emissions  over the course of history</p></b>
+<h2><b><p style="font-size:30px">CO2 Emissions  over the course of history</p></b></h2>
 
 <br>
 <br>
 
 <div id="vis2"></div>
+<br><br><br>
 <p style="font-size:18px">Over the past 100 years, human activities have raised atmospheric concentrations of CO2 by 47% above pre-industrial levels found in 1850. This contribution is more than the CO2 emissions
 that occur naturally. The current concentration of CO2 is approximately 415 ppm (parts per million). To put it into perspective, the total increase in concentration over 20,000 years up till 1850 was from 185 ppm
 to 280 ppm. Above is a visualization of the CO2 emissions from right after the Industrial Revolution, all the way to the modern age. The emission is measured in millions of tonnes.
@@ -41,8 +93,9 @@ to 280 ppm. Above is a visualization of the CO2 emissions from right after the I
 
 
 <br><br><br><br><br><br>
-<b><p style="font-size:30px">Major contributing factors</p></b>
+<h2><b><p style="font-size:30px">Major contributing factors</p></b></h2>
 <div id="vis3"></div>
+<br><br><br>
 <p style="font-size:18px">
 The sources of the majority of CO2 emissions are known to be originated from human activity. Several studies have shown that economic growth has had negative consequences on the CO2 emissions rate.
 Consumption and production processes are where the majority of the CO2 emissions occur. This means the larger our needs are, the more CO2 we are likely to emit. Above is the relationship between CO2 emissions
@@ -52,7 +105,7 @@ and GDP per capita as well as the population. CO2 here is measured in tonnes per
 
 
 <br><br><br><br><br><br>
-<b><p style="font-size:30px">Geographical Distribution and Solutions</p></b>
+<h2><b><p style="font-size:30px">Geographical Distribution and Solutions</p></b></h2>
 <p style="font-size:18px">
 Amongst all countries, the USA, India, and China emit the most CO2 globally. However, it is important to look at the context as these countries also have the most population so it is<br>
 only natural that more CO2 is emitted as the production and consumption needs are much higher than any other place on earth. To put it into perspective we must also take into account<br> the current population 
@@ -60,7 +113,8 @@ for each site. Above shown is a map depicting the CO2 emissions per capita globa
 .</p>
 <div id="vis1"></div>
 <br><br><b>
-<p style="font-size:18px">Although conditions may seem extreme at the moment, this process is revertable if countries around the world take the right series of decisions. We need to make sure <br>
+<p style="font-size:18px">
+Although conditions may seem extreme at the moment, this process is revertable if countries around the world take the right series of decisions. We need to make sure <br>
 the global population has a good lifestyle and standard of living which could help in reducing our population. Moving over to renewable sources of energy as our main source will immensely reduce <br>
 production-based emissions and will aid in restoring the damaged eco-system. There are many ways out of this problem, it is only the will to do so which is required to do so.
 </p>
