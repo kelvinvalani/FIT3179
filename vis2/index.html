@@ -9,36 +9,69 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
-<center><p style="font-size:50px">CO2 emissions</p>
+
+
+<center><b><p style="font-size:50px">CO2 emissions</p></b>
 <br>
-<p style="font-size:18px">Carbon dioxide is an important greenhouse gas which is emitted through various human activities such as burning fossil fuels and deforestation along with natural processes like volcanic eruptions. <br>
-CO2 emissions release carbon dioxide molecules into the atmosphere which tends to trap the heat that comes from the sun. This causes the global temperature to rise as the heat that is trapped by this gas <br>
-is unable to escape causing devastating problems like the freezing of ice caps to unpredictable and extreme weather conditions. This phenomena is referred to as global warming which has disturbed the natural <br>
-eco-system effecting the way all living creatures live their life as well as all natural process overall. Countries around the world and organizations have identified climate change as the most urgent threat we face <br>
+<b><p style="font-size:30px">Why Global Temperatures Matter</p></b>
+
+
+<p style="font-size:18px">Carbon dioxide is an important greenhouse gas that is emitted through various human activities such as burning fossil fuels and deforestation along with natural processes like volcanic eruptions.
+CO2 emissions release carbon dioxide molecules into the atmosphere which tends to trap the heat that comes from the sun. This causes the global temperature to rise as the heat that is trapped by this gas
+is unable to escape causing devastating problems like the freezing of ice caps to unpredictable and extreme weather conditions. This phenomenon is referred to as global warming which has disturbed the natural
+eco-system affecting the way all living creatures live their life as well as all natural processes overall. Countries around the world and organizations have identified climate change as the most urgent threat we face
 and have put into action many plans to lower CO2 emission levels, let us take a closer look at the overall trend and other contributing factors to the problem we currently face.
+</p>
+<br>
+<div id="vis4"></div>
+
+<br><br><br><br><br><br>
+
+
+<b><p style="font-size:30px">CO2 Emissions  over the course of history</p></b>
+
+<br>
+<br>
+
+<div id="vis2"></div>
+<p style="font-size:18px">Over the past 100 years, human activities have raised atmospheric concentrations of CO2 by 47% above pre-industrial levels found in 1850. This contribution is more than the CO2 emissions
+that occur naturally. The current concentration of CO2 is approximately 415 ppm (parts per million). To put it into perspective, the total increase in concentration over 20,000 years up till 1850 was from 185 ppm
+to 280 ppm. Above is a visualization of the CO2 emissions from right after the Industrial Revolution, all the way to the modern age. The emission is measured in millions of tonnes.
+</p>
+
+
+<br><br><br><br><br><br>
+<b><p style="font-size:30px">Major contributing factors</p></b>
+<div id="vis3"></div>
+<p style="font-size:18px">
+The sources of the majority of CO2 emissions are known to be originated from human activity. Several studies have shown that economic growth has had negative consequences on the CO2 emissions rate.
+Consumption and production processes are where the majority of the CO2 emissions occur. This means the larger our needs are, the more CO2 we are likely to emit. Above is the relationship between CO2 emissions
+and GDP per capita as well as the population. CO2 here is measured in tonnes per capita.
 
 </p>
-<br><br><br>
 
 
-<p style="font-size:30px">CO2 Emissions  over the course of history</p>
-
-<br>
-<p style="font-size:18px">Over the past 100 years, human activities have raised atmospheric concentrations of CO2 by 47% above pre-industrial levels found in 1850. This contirbution is more than the CO2 emissions <br> 
-that occur naturally. The current concentration of CO2 is approximately 415 ppm (parts per million). To put it into perspective, the total increase in concentration over 20,000 years up till 1850 was from 185 ppm<br>
-to 280 ppm. Following is a visualisation of the CO2 emissions from right after the Industrial revolution, all the way to the modern age. The emission is measured in millions of tonnes.</p>
-<div id="vis2"></div>
-
-<p style="font-size:30px">Major contributing factors</p>
-<div id="vis3"></div>
-
-<h2>This is the first visualisation</h2>
+<br><br><br><br><br><br>
+<b><p style="font-size:30px">Geographical Distribution and Solutions</p></b>
+<p style="font-size:18px">
+Amongst all countries, the USA, India, and China emit the most CO2 globally. However, it is important to look at the context as these countries also have the most population so it is<br>
+only natural that more CO2 is emitted as the production and consumption needs are much higher than any other place on earth. To put it into perspective we must also take into account<br> the current population 
+for each site. Above shown is a map depicting the CO2 emissions per capita globally
+.</p>
 <div id="vis1"></div>
+<br><br><b>
+<p style="font-size:18px">Although conditions may seem extreme at the moment, this process is revertable if countries around the world take the right series of decisions. We need to make sure <br>
+the global population has a good lifestyle and standard of living which could help in reducing our population. Moving over to renewable sources of energy as our main source will immensely reduce <br>
+production-based emissions and will aid in restoring the damaged eco-system. There are many ways out of this problem, it is only the will to do so which is required to do so.
+</p>
+
 
 <script type="text/javascript">
   var spec1 = "https://kelvinvalani.github.io/FIT3179/vis2/js/map.json";
   var spec2 = "https://kelvinvalani.github.io/FIT3179/vis2/js/line.json";
   var spec3 = "https://kelvinvalani.github.io/FIT3179/vis2/js/bubble.json";
+  var spec4 = "https://kelvinvalani.github.io/FIT3179/vis2/js/temp.json";
+
 
   vegaEmbed('#vis1', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -51,6 +84,11 @@ to 280 ppm. Following is a visualisation of the CO2 emissions from right after t
   vegaEmbed('#vis3', spec3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+
+  vegaEmbed('#vis4', spec4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
 </script>
 <center/>
 </body>
