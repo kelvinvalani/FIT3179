@@ -12,7 +12,7 @@ Aruba,8.426910901
 Australia,15.53922046
 Austria,7.033335706
 Azerbaijan,3.855347182
-"Bahamas, The",4.725277895
+Bahamas,4.725277895
 Bahrain,22.22898097
 Bangladesh,0.533298791
 Barbados,4.465128973
@@ -62,7 +62,7 @@ East Asia & Pacific,6.071788628
 East Asia & Pacific (excluding high income),5.562986278
 East Asia & Pacific (IDA & IBRD countries),5.618534242
 Ecuador,2.495570554
-"Egypt, Arab Rep.",2.525862866
+Egypt,2.525862866
 El Salvador,1.1278829
 Equatorial Guinea,4.653235449
 Estonia,12.60802104
@@ -96,7 +96,7 @@ Haiti,0.274687476
 Heavily indebted poor countries (HIPC),0.276852353
 High income,10.39292983
 Honduras,1.058473626
-"Hong Kong SAR, China",5.948891039
+Hong Kong,5.948891039
 Hungary,4.639973434
 IBRD only,4.41863084
 Iceland,6.154683862
@@ -106,7 +106,7 @@ IDA only,0.379888948
 IDA total,0.551236124
 India,1.817783386
 Indonesia,2.153758127
-"Iran, Islamic Rep.",8.316701233
+Iran,8.316701233
 Iraq,5.191404781
 Ireland,7.930340975
 Israel,7.625351861
@@ -139,7 +139,7 @@ Low & middle income,3.4039735
 Low income,0.271829641
 Lower middle income,1.515452398
 Luxembourg,15.44261306
-"Macao SAR, China",3.37478216
+Macao,3.37478216
 Madagascar,0.156876974
 Malawi,0.075448776
 Malaysia,8.091591623
@@ -192,7 +192,7 @@ Pre-demographic dividend,0.580670839
 Puerto Rico,1.56
 Qatar,38.90147093
 Romania,3.515261924
-Russian Federation,11.99943207
+Russia,11.99943207
 Rwanda,0.095533926
 Samoa,1.262955252
 San Marino,0.365
@@ -242,15 +242,15 @@ Uganda,0.143267095
 Ukraine,4.493971404
 United Arab Emirates,22.04082852
 United Kingdom,5.776795985
-United States,15.50220398
+United States of America,15.50220398
 Upper middle income,5.979799957
 Uruguay,1.975862788
 Uzbekistan,2.882785961
 Vanuatu,0.527000323
-"Venezuela, RB",5.500712738
+Venezuela,5.500712738
 Vietnam,2.057565917
 Virgin Islands (U.S.),2.28
 West Bank and Gaza,0.740606555
-"Yemen, Rep.",0.390479572
+Yemen,0.390479572
 Zambia,0.314182895
 Zimbabwe,0.782776886
