@@ -12,7 +12,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://kelvinvalani.github.io/FIT3179/vis2/data/map.csv"
+          "url": "https://kelvinvalani.github.io/FIT3179/vis2/data/newmap.csv"
         },
         "key": "Country Name",
         "fields": ["Emission"]
